@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0PX;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    
+}
+.main a{
+    font-size: 95px;
+    position: relative;
+    text-decoration: none;
+    box-shadow: 0 0 10px gray;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    width: 410px;
+    color: rgb(23, 14, 14);
+    outline: none;
+    display: block;
+    border: none;
+    letter-spacing: 5px;
+    transition-delay: 1.3s;
+}
+.main a:hover{
+    color: white;
+    background: gray;
+    transition-delay: 1.3s;
+}
+.main span:nth-child(1)
+{
+position: absolute;
+width: 50%;
+top: 0;
+left: 0;;
+height: 5px;
+transform: scaleX(0);
+transform-origin: left;
+background-color: aqua;
+transition: transform .5s;
+}
+.main:hover span:nth-child(1)
+{
+    transform: scaleX(1);
+    transform-origin: right;
+}
+.main span:nth-child(2)
+{
+position: absolute;
+width: 50%;
+top: 0;
+right: 0;;
+height: 5px;
+transform: scaleX(0);
+transform-origin: right;
+background-color: aqua;
+transition: transform .5s;
+}
+.main:hover span:nth-child(2)
+{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.main span:nth-child(3)
+{
+position: absolute;
+width: 5px;
+height: 100%;
+top: 0;
+left: 0;;
+transform: scaleY(0);
+transform-origin: bottom;
+background-color: aqua;
+transition: transform .5s;
+transition-delay: .4s;
+}
+.main:hover span:nth-child(3)
+{
+    transform: scaleX(1);
+    transform-origin: top;
+}
+.main span:nth-child(4)
+{
+position: absolute;
+width: 5px;
+height: 100%;
+top: 0;
+right: 0;;
+transform: scaleY(0);
+transform-origin: bottom;
+background-color: aqua;
+transition: transform .5s;
+transition-delay: .4s;
+}
+.main:hover span:nth-child(4)
+{
+    transform: scaleX(1);
+    transform-origin: top;
+}
+
+.main span:nth-child(5)
+{
+position: absolute;
+width: 50%;
+bottom: 0;
+left: 0;;
+height: 5px;
+transform: scaleX(0);
+transform-origin: right;
+background-color: aqua;
+transition: transform .5s;
+transition-delay: .8s;
+}
+.main:hover span:nth-child(5)
+{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.main span:nth-child(6)
+{
+position: absolute;
+width: 50%;
+bottom: 0;
+right: 0;;
+height: 5px;
+transform: scaleX(0);
+transform-origin: left;
+background-color: aqua;
+transition: transform .5s;
+transition-delay: .8s;
+}
+.main:hover span:nth-child(6)
+{
+    transform: scaleX(1);
+    transform-origin: right;
+}
